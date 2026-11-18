@@ -1,16 +1,87 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Cake Cards - React Props Project
 
-Currently, two official plugins are available:
+A simple React project built to understand and practice **Props in React.js**. This project displays different cake cards, with each card showing the cake's name, price, and a short description using reusable React components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 About the Project
 
-## React Compiler
+The main goal of this project is to learn how to use **Props** in React and understand how data can be passed from a parent component to child components.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each cake card is created using a reusable component, and different cake details are passed to it through props.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Displays multiple cake cards.
+- Uses reusable React components.
+- Passes data using React Props.
+- Shows cake name, price, and description.
+- Demonstrates component reusability.
+- Simple and beginner-friendly UI.
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite (if used for project setup)
+
+## 📂 Project Structure
+
+```text
+cake-cards/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Card.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## 📚 Concepts Learned
+
+- What are Props in React?
+- Passing data from parent to child components.
+- Accessing props inside components.
+- Creating reusable components.
+- Rendering multiple components with different data.
+- Understanding component-based architecture.
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone <your-repository-link>
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd cake-cards
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL displayed in your terminal.
+
+## 🎯 Learning Objective
+
+This project is part of my React.js learning journey. I created it to get hands-on experience with Props and understand how reusable components work in React.
+
+## 👨‍💻 Author
+
+Created with ❤️
